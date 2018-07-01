@@ -3960,8 +3960,6 @@ inherit (pkgs.xorg) libXrender;};
            pname = "atomic-primops";
            version = "0.8.2";
            sha256 = "67f8872e0c1e634d819a967365eb4ad514e9b2cde967fbc710da7cdc4d17d933";
-           revision = "1";
-           editedCabalFile = "0gdcd84x2s4jiry0was74rzv9l53an1q6ad8jiaj37fr4fim0wcc";
            libraryHaskellDepends = [ base ghc-prim primitive ];
            doHaddock = false;
            doCheck = false;
@@ -13315,8 +13313,6 @@ inherit (pkgs) libjpeg; inherit (pkgs) libpng; inherit (pkgs) zlib;};
            pname = "generic-deriving";
            version = "1.12.2";
            sha256 = "5688b85ff1e3484e3f6073a52f99624a41c8b01ddaab9fcec20afa242f33edc4";
-           revision = "1";
-           editedCabalFile = "0gr20ypr6s0183wmrhmia0zvpbn4dmfyr3wksrkrqj4i8nhj42fz";
            libraryHaskellDepends = [
              base containers ghc-prim template-haskell th-abstraction
            ];

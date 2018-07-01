@@ -17,3 +17,8 @@ script:
 - cachix use cachix
 - cachix push cachix --watch-store&
 - nix-build -j2 | cachix push cachix
+jobs:
+  include:
+    - stage: stack2nix
+      script: ./scripts/stack2nix.sh
+      os: linux
